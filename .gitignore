@@ -19,3 +19,13 @@ hs_err_pid*
 
 /.idea/
 *.iml
+/scenarios/Nyc-drt-scenario/output/
+/src/main/R/taxi_zones.dbf
+/src/main/R/taxi_zones.prj
+/src/main/R/taxi_zones.sbn
+/src/main/R/taxi_zones.sbx
+/src/main/R/taxi_zones.shp
+/src/main/R/taxi_zones.shp.xml
+/src/main/R/taxi_zones.shx
+/src/main/R/taxi_zones.zip
+/src/main/R/yellow_tripdata_2022-08.parquet
