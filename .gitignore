@@ -29,3 +29,6 @@ hs_err_pid*
 /src/main/R/taxi_zones.shx
 /src/main/R/taxi_zones.zip
 /src/main/R/yellow_tripdata_2022-08.parquet
+/scenarios/Nyc-drt-scenario/new-york-epsg2263.network.xml.gz
+/scenarios/Nyc-drt-scenario/new-york-latest.osm.pbf
+/scenarios/Nyc-drt-scenario/new-york-network.osm.pbf
