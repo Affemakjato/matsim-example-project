@@ -33,9 +33,7 @@ public class GeneratingDrtPlans {
 
             Config config = ConfigUtils.createConfig();
             Population outputPlans = PopulationUtils.createPopulation(config);
-            // Get population factory from that population file (usually, it doesn't matter which population file you get this population factory)
             PopulationFactory populationFactory = outputPlans.getFactory();
-
 
             try (
                     CSVParser parser =
