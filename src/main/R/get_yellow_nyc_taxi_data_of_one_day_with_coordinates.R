@@ -25,7 +25,6 @@ download.file(url = "https://d37ci6vzurychx.cloudfront.net/misc/taxi_zones.zip",
               mode = "wb")
 archive_extract("taxi_zones.zip")
 nyc_shape_manhattan <- st_read("taxi_zones.shp") %>%  filter(borough == "Manhattan")
-nyc_shape <- st_read("taxi_zones.shp")
 
 trips_short <- add_column(trips_short, PULocationCoord_x = NA, PULocationCoord_y = NA,DOLocationCoord_x = NA, DOLocationCoord_y = NA)
 
